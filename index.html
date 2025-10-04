@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kondu — Temp</title>
+  <link rel="icon" href="assets/favicon.png" />
+
+  <!-- Tailwind CSS via official CDN (good for prototyping) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Optional Tailwind config for the CDN build
+    tailwind.config = {
+      theme: {
+        extend: {}
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased">
+  <header class="max-w-4xl mx-auto p-6 flex items-center gap-4">
+    <img src="assets/kondu-logo.svg" alt="Kondu" class="h-12 w-auto" />
+    
+  </header>
+
+  <main class="max-w-4xl mx-auto p-6">
+
+    <p class="text-lg">This page loads Tailwind CSS via the official CDN for quick prototyping.</p>
+
+    <section class="mt-6">
+      <h2 class="text-xl font-medium mb-2">Example</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="p-4 bg-white rounded-lg shadow">
+          <h3 class="font-semibold">Card</h3>
+          <p class="text-sm text-gray-600">A simple Tailwind-styled card.</p>
+        </div>
+        <div class="p-4 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-lg shadow">
+          <h3 class="font-semibold">Gradient</h3>
+          <p class="text-sm">Using Tailwind utilities for gradient.</p>
+        </div>
+        <div class="p-4 bg-white rounded-lg shadow flex items-center justify-center">
+          <button class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Primary action</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="max-w-4xl mx-auto p-6 text-sm text-gray-500">
+    
+  </footer>
+</body>
+</html>
